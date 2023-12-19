@@ -140,3 +140,49 @@ nav.navbar img {
   line-height: 1.5em;
   width: 96%;
 }
+
+/* Project Css */
+.project {
+  padding: 80px 0;
+  position: relative;
+  background-color: #121212;
+}
+
+.card {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 200px;
+
+}
+
+.card .card-body {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+}
+
+.card .btn-primary {
+  background-color: #ff0000;
+  border-color: #f4f4f4;
+}
+
+.project .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
