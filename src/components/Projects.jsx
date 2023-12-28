@@ -36,7 +36,7 @@ export const Projects = () => {
                         )
                     })}
                 </Row>
-            </Container>        
+            </Container>      
         </section>
     )
 }

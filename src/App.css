@@ -148,23 +148,24 @@ nav.navbar img {
   background-color: #121212;
 }
 
-.card {
+.project_img {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 30px;
+  padding: 20px;
 }
 
-.card:hover {
+.project_img :hover {
   transform: scale(1.05);
 }
 
-.card img {
+.project_img img {
   height: 200px;
 
 }
 
-.card .card-body {
+.project .project_txt {
   position: absolute;
   text-align: center;
   top: 65%;
@@ -179,10 +180,12 @@ nav.navbar img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .project .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
