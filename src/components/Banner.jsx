@@ -1,6 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import TrackVisibility from 'react-on-screen';
+import HeroImage from './hero_image';
+
+const renderBackgroundImage = () => {
+    <div>
+        <HeroImage/>
+    </div>
+}
 
 export const Banner = () => {
     return (
@@ -18,8 +25,15 @@ export const Banner = () => {
                             </div>
                         </TrackVisibility> 
                     </Col>
+                    <Col xs={12} md={6} xl={7}>
+                        <div>
+                            {renderBackgroundImage}
+                        </div>
+                    </Col>
                 </Row>
+                
             </Container>
+            
         </section>
     )
 }
