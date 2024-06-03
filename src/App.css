@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #0d1117 !important;
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
 }
@@ -306,7 +306,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Skills Css */
 
-.skill {
+/* .skill {
   padding: 0 0 50px 0;
   position: relative;
 }
@@ -345,25 +345,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/* Skillsi CSS */
-
-body {
-  background-color: #141414;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 h3 {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: #ffffff;
+} */
+
+
+/* Skills Css */
+
+.skillcard {
+  background-color: #161b22;
+}
+
+.tcard {
+  border-radius: 1rem;
+  border-color: transparent;
+  background-clip: padding-box;
+  height: auto;
+  position: relative;
+  background: linear-gradient(135deg, #393F46 0%, #202328 50%) no-repeat !important;
+  appearance: none;
+  vertical-align: middle;
+  align-items: center;
+  border: solid max(2px, 0.125rem) transparent;
+  display: inline-flex;
+  gap: 0.75rem;
 }
 
 .card {
@@ -372,5 +381,6 @@ h3 {
 
 .card:hover {
   transform: scale(1.05);
+  border: 1px solid #fff;
+  background-color: linear-gradient(135deg, #393F46 0%, #202328 50%) no-repeat;
 }
-

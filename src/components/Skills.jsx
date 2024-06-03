@@ -1,7 +1,8 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import mail1 from '../assets/img/mail.jpg';
+import react from '../assets/img/reactjs.svg'
 
 
 export const Skills = () => {
@@ -27,73 +28,145 @@ export const Skills = () => {
       };
 
     return (
-        <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={mail1} alt="" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={mail1} alt="" />
-                                <h5>Brand Identity</h5>
-                            </div>
-                            <div className="item">
-                                <img src={mail1} alt="" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={mail1} alt="" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img className="background-image-left" src={mail1} alt="" />
-    </section>
+        <div className='d-flex align-item-center justify-content-center text-white'>
+            <Row className='g-4'>
+                <Col xs={12} md={4} className='bg-primary '>
+                    <Container>
+                        <Row className='d-flex flex-column'>
+                            <Col className='align-item-center'>
+                                <h3 className='align-item-center'>Frontend</h3>
+                            </Col>
+                            <Col>
+                                <Row>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Col>
+                <Col xs={12} md={4}>
+                    <Container>
+                        <Row className='d-flex flex-column'>
+                            <Col>
+                                <h3 className='align-item-center'>Backend</h3>
+                            </Col>
+                            <Col>
+                                <Row>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Col>
+                <Col xs={12} md={4}>
+                    <Container>
+                        <Row className='d-flex flex-column'>
+                            <Col>
+                                <h3 className='align-item-center'>Database</h3>
+                            </Col>
+                            <Col>
+                                <Row>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xs={6} className='mb-4'>
+                                        <Card className='bg-secondary border-0 text-white h-100' style={{borderRadius: '15px'}}>
+                                            <Card.Body className='d-flex flex-column align-items-center'>
+                                                <Card.Img variant='top' src={react} className='mb-3' style={{ width: '90px', height: '90px' }} />
+                                                <Card.Title>Visual Studio</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Col>
+            </Row>
 
-        // <section className="skill" id="skills">
-        //     <div className='container'>
-        //         <h1>Skills</h1>
-        //         <div>
-        //             <h2>Programming Languages</h2>
-        //             <ul>
-        //                 <li>C++</li>
-        //                 <li>Python</li>
-        //                 <li>JavaScript</li>
-        //             </ul>
-        //         </div>
-        //         <div>
-        //             <h2>Frontend</h2>
-        //             <ul>
-        //                 <li>HTML</li>
-        //                 <li>CSS</li>
-        //                 <li>React</li>
-        //             </ul>
-        //         </div>
-        //         <div>
-        //             <h2>Backend</h2>
-        //             <ul>
-        //                 <li>Node.js</li>
-        //                 <li>Express</li>
-        //                 <li>Flask</li>
-        //             </ul>
-        //         </div>
-        //         <div>
-        //             <h2>Database</h2>
-        //             <ul>
-        //                 <li>MySQL</li>
-        //                 <li>MongoDB</li>
-        //             </ul>
-        //         </div>
-        //     </div>
-        // </section>
+        </div>
     )
 }
