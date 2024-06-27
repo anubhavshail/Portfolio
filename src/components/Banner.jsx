@@ -59,12 +59,11 @@ export const Banner = () => {
 
     return (
         <section className='banner' id='home'>
-            <Container>
+            <Container className='mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen'>
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                             <div className='banner__content'>
-                                <span className='tagline'>Welcome to my Portfolio</span>
                                 <h1>{`Hi! I'm Anubhav Shail`} <span className='wrap'>{text}</span></h1>
                                 <p>
                                     Looking to start the career as an entry-level software engineer with a reputed firm driven by technology. Proficient in C++, Python, GIT. Skilled in Web Development. Passionate about implementing and launching new projects.
