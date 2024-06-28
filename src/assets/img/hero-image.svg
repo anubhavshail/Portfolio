@@ -2,7 +2,7 @@
   <svg
     width='{1021}'
     height='{650}'
-    viewBox="0 0 1021 650"
+    viewBox="0 0 480 650"
     className="w-full"
     style='{{
       height: "auto",
