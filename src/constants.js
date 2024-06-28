@@ -1,3 +1,58 @@
+import { Images } from "react-bootstrap-icons";
+
+export const METADATA = {
+  title: "Portfolio | Anubhav Shail",
+  description: "I'm Full Stack Developer",
+  siteUrl: "https://anubhavshail.github.io/Portfolio",
+  keywords: [
+    "Anubhav Shail",
+    "Software Engineer",
+    "Backend Developer",
+    "FullStack Developer",
+    "Portfolio"
+  ].join(", ")
+}
+
+export const EMAIL = "anubhavshail12@gmail.com";
+
+export const SOCIAL_LINKS = [
+  {
+    name: "linkedin",
+    url: "www.linkedin.com/in/anubhav-shail-4b0b47190",
+  },
+  {
+    name: "github",
+    url: "https://github.com/anubhavshail",
+  },
+  {
+    name: "instagram",
+    url: "https://www.instagram.com/anubhavshail/"
+  },
+  {
+    name: "x",
+    url: "https://x.com/AnubhavShail"
+  },
+];
+
+export const MENULINKS = [
+  {
+    name: "Home",
+    ref: "home",
+  },
+  {
+    name: "Skills",
+    ref: "skills",
+  },
+  {
+    name: "Projects",
+    ref: "projects",
+  },
+  {
+    name: "Contact",
+    ref: "contact",
+  },
+];
+
 export const techStack = [
 
     { name: "C Language", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" },
@@ -44,30 +99,34 @@ export const techStack = [
   
   
   
-  export const serviceData = [
+  export const PROJECTS = [
     {
-      name: 'Web Application Development',
-      desc: 'Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design user interface design  authoring, including standardised code and proprietary software user experience design and search engine',
-      img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png"
+      name: "Intelligent Video Surveillance System",
+      image: "",
+      blurImage: "",
+      description: "",
+      gradient: ["#F14658", "#DC2537"],
+      url: "",
+      tech: ["python", "flask", "yolo", "opencv"],
     },
     {
-      name: 'Mobile Application Development',
-      desc: `We provide a range of mobile application development services
-      including custom mobile development on Android platforms, building
-      cross-platform apps, designing user experience and integrating
-      novel mobile interfaces such as chat and voice`,
-      img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png"
+      name: "Keep Notes",
+      image: "",
+      blurImage: "",
+      description: "",
+      gradient: ["#FFA62E", "#EA4D2C"],
+      url: "",
+      tech: ["Node.js", "React.js", "Express", "Monggose"],
     },
-  
     {
-      name: 'Backend Development',
-      desc: `Graphic design is a craft where professionals create visual
-      content to communicate messages. By applying visual hierarchy and
-      page layout techniques, designers use typography and pictures to
-      meet users' specific needs and focus on the logic of displaying
-      elements in interactive designs, to optimize the user experience.`,
-      img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png"
+      name: "Bulk Mail Dispatcher",
+      image: "",
+      blurImage: "",
+      description: "",
+      gradient: ["#000066", "#6699FF"],
+      url: "",
+      tech: ["python", "flask", "SMTP", "HTML", "CSS"],
     },
-  
-  
   ]
+
+  export const GTAG = "";
